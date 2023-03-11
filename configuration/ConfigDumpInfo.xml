@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.16">
+	<ConfigVersions>
+		<Metadata name="Catalog.fast8Пользователи" id="f9ff5fd3-c347-4ca5-a92e-e67e7aaadcab" configVersion="2f9272e4f19ef340b47bae8de63e707e00000000">
+			<Metadata name="Catalog.fast8Пользователи.Attribute.Исполнитель" id="ec78f2ce-5461-4655-9c69-0ec75b4d2b2c"/>
+		</Metadata>
+		<Metadata name="Catalog.fast8Пользователи.Form.ФормаСписка" id="f4514c65-e8c6-4fd1-8aba-51cf6ab88f44" configVersion="32cb72a9af1e8e41b159d2e9591134e200000000"/>
+		<Metadata name="Catalog.fast8Пользователи.Form.ФормаСписка.Form" id="f4514c65-e8c6-4fd1-8aba-51cf6ab88f44.0" configVersion="96a3a7766e6b60438ff41a026445c05600000000"/>
+		<Metadata name="Catalog.fast8Пользователи.Form.ФормаЭлемента" id="4a3a934c-9037-4195-8617-157504738ec3" configVersion="0557be67dfb9834886fb017cc5fddd8400000000"/>
+		<Metadata name="Catalog.fast8Пользователи.Form.ФормаЭлемента.Form" id="4a3a934c-9037-4195-8617-157504738ec3.0" configVersion="6ed14ca321e812449a4ef6a9cc03f72100000000"/>
+		<Metadata name="Catalog.fast8Пользователи.Predefined" id="f9ff5fd3-c347-4ca5-a92e-e67e7aaadcab.1c" configVersion="0721dcce61a38e4d939b1a76c618036e00000000"/>
+		<Metadata name="Catalog.fast8Процессы" id="c8065f2b-9e28-4440-94b5-92938f782b12" configVersion="87b9342956e3184f91ca811eeefe023900000000">
+			<Metadata name="Catalog.fast8Процессы.TabularSection.Участники.Attribute.Создание" id="03cf4561-63e9-4fd2-b542-c5bc97a5f4af"/>
+			<Metadata name="Catalog.fast8Процессы.TabularSection.Участники.Attribute.Исполнение" id="0615f405-b24a-423b-b4c3-7e3c22fdb9fc"/>
+			<Metadata name="Catalog.fast8Процессы.TabularSection.Расписание.Attribute.Единица" id="1d5b5c80-0258-419b-9ab5-767a2069669f"/>
+			<Metadata name="Catalog.fast8Процессы.TabularSection.Участники.Attribute.ТребуетсяКонтроль" id="267e35f2-576f-4758-bbf7-879e28966c67"/>
+			<Metadata name="Catalog.fast8Процессы.TabularSection.Участники.Attribute.ТолькоПросмотр" id="34dc5946-6641-4fb2-91cd-9526edadeb45"/>
+			<Metadata name="Catalog.fast8Процессы.TabularSection.Расписание.Attribute.Вид" id="60a96b53-789b-4302-879d-250b417251b8"/>
+			<Metadata name="Catalog.fast8Процессы.TabularSection.Расписание.Attribute.Порядок" id="6ba86600-6212-4096-8b9e-e7059d86a96c"/>
+			<Metadata name="Catalog.fast8Процессы.Attribute.Описание" id="70ec6058-3eaf-4ab3-88ca-7ea71d22dcd1"/>
+			<Metadata name="Catalog.fast8Процессы.TabularSection.Участники.Attribute.Контроль" id="7ac54b5a-dc0d-411f-968d-ce8502284bff"/>
+			<Metadata name="Catalog.fast8Процессы.TabularSection.Участники.Attribute.Управление" id="a51b26d9-0f95-472f-9ce4-44877a89f392"/>
+			<Metadata name="Catalog.fast8Процессы.TabularSection.Участники.Attribute.Пользователь" id="b5c53088-79a6-4e0d-a03a-355e5a3297d4"/>
+			<Metadata name="Catalog.fast8Процессы.Attribute.Картинка" id="b87bc44a-3a24-4dfd-b628-1cef965830c1"/>
+			<Metadata name="Catalog.fast8Процессы.TabularSection.Участники" id="bda1f865-33ab-444d-aada-cd4caed9e2bd"/>
+			<Metadata name="Catalog.fast8Процессы.TabularSection.Участники.Attribute.ПоРасписанию" id="ee0dbda0-d103-42a2-b68a-d15b84e2eef6"/>
+			<Metadata name="Catalog.fast8Процессы.TabularSection.Расписание" id="fa11db22-b85f-4530-af96-704e4d926325"/>
+		</Metadata>
+		<Metadata name="Catalog.fast8Процессы.Form.ФормаСписка" id="61e60800-101f-4b50-8bff-0af0fc7706c9" configVersion="e90f960f0c70fc4182469a604761578900000000"/>
+		<Metadata name="Catalog.fast8Процессы.Form.ФормаСписка.Form" id="61e60800-101f-4b50-8bff-0af0fc7706c9.0" configVersion="fb0668307c8f964caa4dd27212088e5900000000"/>
+		<Metadata name="Catalog.fast8Процессы.Form.ФормаЭлемента" id="1188425f-8461-4372-b146-805bc3de86e4" configVersion="03691364795ba54886da6e05ac896c1e00000000"/>
+		<Metadata name="Catalog.fast8Процессы.Form.ФормаЭлемента.Form" id="1188425f-8461-4372-b146-805bc3de86e4.0" configVersion="57d65b2eadcb154e8064cdc4bf343ec100000000"/>
+		<Metadata name="Catalog.fast8Процессы.ObjectModule" id="c8065f2b-9e28-4440-94b5-92938f782b12.0" configVersion="eebc1b51db23994ca4bbf6fe338c1c4500000000"/>
+		<Metadata name="CommonForm.fast8Задание" id="c0c0c832-4b62-4008-b450-09bcc1e17ed1" configVersion="1d76a79a25fc21448e67f0aaec20fdd600000000"/>
+		<Metadata name="CommonForm.fast8Задание.Form" id="c0c0c832-4b62-4008-b450-09bcc1e17ed1.0" configVersion="9eefaaa74cab3942994496e1667f7b7100000000"/>
+		<Metadata name="CommonForm.fast8Настройки" id="18dcfe57-d7e8-42a8-a5f5-4d4a927456a5" configVersion="fbb31e68438ccc498e2fb6b16313111500000000"/>
+		<Metadata name="CommonForm.fast8Настройки.Form" id="18dcfe57-d7e8-42a8-a5f5-4d4a927456a5.0" configVersion="0961f49273e32c42b0564521e71a82f800000000"/>
+		<Metadata name="CommonForm.fast8ПрогрессОбмена" id="1d242e14-3f98-4975-9a73-90a9ebbab8ba" configVersion="9687f6ed197cea4fb9b252d65aa9a65200000000"/>
+		<Metadata name="CommonForm.fast8ПрогрессОбмена.Form" id="1d242e14-3f98-4975-9a73-90a9ebbab8ba.0" configVersion="f33f822eb15d724f8e1dade35ca34a6c00000000"/>
+		<Metadata name="CommonForm.fast8СписокЗаданий" id="5b12e5dc-8fbd-4fef-9142-366f510c37da" configVersion="0ae2764a40b6c1449d3a82b6005a07ec00000000"/>
+		<Metadata name="CommonForm.fast8СписокЗаданий.Form" id="5b12e5dc-8fbd-4fef-9142-366f510c37da.0" configVersion="74cb52fd927f9d44941fb31cb6c44f0100000000"/>
+		<Metadata name="CommonModule.fast8ОбменКлиента" id="0d117a16-6b92-409a-879d-f8fd533341f3" configVersion="3f9ff22aab53ab4b97f9ad48dbd8cea800000000"/>
+		<Metadata name="CommonModule.fast8ОбменКлиента.Module" id="0d117a16-6b92-409a-879d-f8fd533341f3.0" configVersion="42bf8fee42c6d343a9b0440fdacfc9df00000000"/>
+		<Metadata name="CommonModule.fast8ОбменСервера" id="532b7c68-d84e-4e92-9090-6d749e40c383" configVersion="476fc7b8ab101f43b87cd2a104b7bde200000000"/>
+		<Metadata name="CommonModule.fast8ОбменСервера.Module" id="532b7c68-d84e-4e92-9090-6d749e40c383.0" configVersion="c5ee88c02d46404c981a4d697cb2e44900000000"/>
+		<Metadata name="CommonModule.fast8ОбщегоНазначения" id="cd0ef4d0-b04a-47b4-9a16-bdb7c5de158f" configVersion="cb5d55957908384e952cc074f72ab53100000000"/>
+		<Metadata name="CommonModule.fast8ОбщегоНазначения.Module" id="cd0ef4d0-b04a-47b4-9a16-bdb7c5de158f.0" configVersion="20961e861b1c474f834332fca9a73e9600000000"/>
+		<Metadata name="CommonModule.fast8Пользователи" id="e04be94c-6afa-4244-aceb-a73749b8c510" configVersion="3f45fd0e4352d7458254347f1512315600000000"/>
+		<Metadata name="CommonModule.fast8Пользователи.Module" id="e04be94c-6afa-4244-aceb-a73749b8c510.0" configVersion="ba407e61cc7bb9459ac16aeb2b4127b100000000"/>
+		<Metadata name="CommonModule.fast8УправлениеПроцессами" id="ccc2953e-0e4d-4c87-8b4b-2ec3c5158701" configVersion="2541f4054f6ce34490e5ee8a35d988d700000000"/>
+		<Metadata name="CommonModule.fast8УправлениеПроцессами.Module" id="ccc2953e-0e4d-4c87-8b4b-2ec3c5158701.0" configVersion="cb08434285c6544c82a7e9a4266678a600000000"/>
+		<Metadata name="Configuration.fast8ДомашниеЗадачи" id="48a1d39b-7a60-4ccf-a082-ed2f09ba5982" configVersion="e88057e269da1e4a866ee8eebc0ccaf800000000"/>
+		<Metadata name="Configuration.fast8ДомашниеЗадачи.ClientApplicationInterface" id="dd1de545-b1ee-4864-8f0b-3c70dddc78fd.b" configVersion="4de7da8de268884f939d6087f0602f3900000000"/>
+		<Metadata name="Configuration.fast8ДомашниеЗадачи.HomePageWorkArea" id="dd1de545-b1ee-4864-8f0b-3c70dddc78fd.8" configVersion="c5eb10f44c04024db50e5a04168a7a6000000000"/>
+		<Metadata name="Configuration.fast8ДомашниеЗадачи.ManagedApplicationModule" id="dd1de545-b1ee-4864-8f0b-3c70dddc78fd.6" configVersion="15ead89488199d468cf111ec6f5a16c000000000"/>
+		<Metadata name="Configuration.fast8ДомашниеЗадачи.SessionModule" id="dd1de545-b1ee-4864-8f0b-3c70dddc78fd.7" configVersion="a8668ede0838e649a126422919a53be200000000"/>
+		<Metadata name="Constant.fast8ВремяАвтовыключения" id="59344c99-812f-4c76-8f44-e34045a8ae56" configVersion="d4d9856fcd90f24787c551b0eec6690300000000"/>
+		<Metadata name="Constant.fast8ЗаголовокСообщенияТелеграм" id="075e769a-b636-45cb-be1f-fa17bd64fc0b" configVersion="e197df15689bec48b8997f5a105d416f00000000"/>
+		<Metadata name="Constant.fast8ИмяГруппыТелеграм" id="dd043932-b535-4262-b802-f39f26a4e64a" configVersion="7ea8a0b8b55a224a9ab77810924bc7ba00000000"/>
+		<Metadata name="Constant.fast8КоличествоЗагруженных" id="e258eff5-77bc-4c0d-a3d5-6e1b2e3b549c" configVersion="b76d7d540bf0af48a2d63714b7dd1a8d00000000"/>
+		<Metadata name="Constant.fast8КоличествоЗаданийДляОбработки" id="1b3692c8-f94c-4eb1-a4ad-93c94c190874" configVersion="250f1b343609c549a66993c6e1e73c5500000000"/>
+		<Metadata name="Constant.fast8КоличествоОбработанныхЗаданий" id="3c53cd2e-8ec9-4938-9cce-a65ca2a410e3" configVersion="5541c8680575454a9e5d0f01c5742c9b00000000"/>
+		<Metadata name="Constant.fast8ПарольПодключения" id="8e289b1c-e1fe-4f0f-9b8a-2d9d07020b83" configVersion="d0e7f28c443a1641b198fff6a203e43900000000"/>
+		<Metadata name="Constant.fast8ПодключениеКСерверу" id="f69baee7-91ae-46d6-83f8-9bceaba633e5" configVersion="00f488260a41674a91e5e4eaae91211600000000"/>
+		<Metadata name="Constant.fast8ПользовательУстройства" id="ae753df9-a3cf-4cbe-88f8-53770e772bdd" configVersion="d52bc1f2f7d15845a7ac520e029078d000000000"/>
+		<Metadata name="Document.fast8ВыполнениеЗадания" id="859f9da5-d9a7-4c21-8839-5c47b664e64d" configVersion="620cc9aba75023408ebd1bb6de62adc600000000">
+			<Metadata name="Document.fast8ВыполнениеЗадания.Attribute.Процесс" id="00595190-d1ad-444b-846c-814263b76a1f"/>
+			<Metadata name="Document.fast8ВыполнениеЗадания.Attribute.Выполнено" id="1d9942c1-8db4-4ce6-ba0c-e939babbcc31"/>
+			<Metadata name="Document.fast8ВыполнениеЗадания.Attribute.Отменено" id="35626ddc-a2ad-4650-a6c7-261d563df164"/>
+			<Metadata name="Document.fast8ВыполнениеЗадания.Attribute.Исполнитель" id="407481da-6bfd-4674-9d18-5ed5240785cb"/>
+			<Metadata name="Document.fast8ВыполнениеЗадания.Attribute.Задание" id="7d500c50-3782-4a88-a4d0-361d005ed05e"/>
+			<Metadata name="Document.fast8ВыполнениеЗадания.Attribute.ДатаВыполнения" id="a422cb0f-76ba-4df3-8d54-e939f0adb550"/>
+		</Metadata>
+		<Metadata name="Document.fast8ВыполнениеЗадания.ObjectModule" id="859f9da5-d9a7-4c21-8839-5c47b664e64d.0" configVersion="29e8a96b19d6ce4f8bcb153822e9367000000000"/>
+		<Metadata name="Document.fast8Задание" id="5658f0b3-dd48-4672-8923-8bd2cc59ef3f" configVersion="62487aa30bb4fe49b8634a51edd88cbf00000000">
+			<Metadata name="Document.fast8Задание.Attribute.Процесс" id="014f2b84-a992-4621-b75d-ed421e005174"/>
+			<Metadata name="Document.fast8Задание.Attribute.Ответственный" id="f90c36ed-2307-47a0-8b51-3e830c7f4e9d"/>
+		</Metadata>
+		<Metadata name="Document.fast8Задание.Form.ФормаДокумента" id="cfce5c2e-2514-4dcc-b50a-387e0a0ebaaf" configVersion="b558cada537e5c4d80af3272d5989a4000000000"/>
+		<Metadata name="Document.fast8Задание.Form.ФормаДокумента.Form" id="cfce5c2e-2514-4dcc-b50a-387e0a0ebaaf.0" configVersion="4af1c562a23fae4993144ab3944e383900000000"/>
+		<Metadata name="Document.fast8Задание.ManagerModule" id="5658f0b3-dd48-4672-8923-8bd2cc59ef3f.2" configVersion="4de4e54e8e01a54c986e2cafa0e2744800000000"/>
+		<Metadata name="Document.fast8Задание.ObjectModule" id="5658f0b3-dd48-4672-8923-8bd2cc59ef3f.0" configVersion="42402ef5ad13514f93b809d1147306f700000000"/>
+		<Metadata name="Document.fast8НазначениеИсполнителя" id="a9e7bbe7-5ab1-4487-8dd4-653d9cdda34d" configVersion="bca0094aa8255845b355d9670cbe581e00000000">
+			<Metadata name="Document.fast8НазначениеИсполнителя.Attribute.Процесс" id="25b77ffe-82bd-4f14-b0c4-a59d169e0e3d"/>
+			<Metadata name="Document.fast8НазначениеИсполнителя.Attribute.Задание" id="7d489b1c-2f51-41ee-8d0c-1e33cd1cb447"/>
+			<Metadata name="Document.fast8НазначениеИсполнителя.Attribute.Исполнитель" id="c0444935-c666-46c5-897e-20908516b950"/>
+			<Metadata name="Document.fast8НазначениеИсполнителя.Attribute.Ответственный" id="f8d25a60-c350-4380-9e5d-5d7b01328131"/>
+		</Metadata>
+		<Metadata name="Document.fast8НазначениеИсполнителя.ObjectModule" id="a9e7bbe7-5ab1-4487-8dd4-653d9cdda34d.0" configVersion="07f7ad22e46586408d397ac0649d73ff00000000"/>
+		<Metadata name="Document.fast8ПроверкаЗадания" id="88dcaa85-ae2c-4677-b065-5bf29583ed7e" configVersion="327c934de1ab17499e3fe327587b07df00000000">
+			<Metadata name="Document.fast8ПроверкаЗадания.Attribute.Проверяющий" id="46cf76ff-8c9c-4f13-86c3-88c4dafd0337"/>
+			<Metadata name="Document.fast8ПроверкаЗадания.Attribute.ВозвращеноНаДоработку" id="7cec27c0-8851-4fa6-b03b-5e89b8756287"/>
+			<Metadata name="Document.fast8ПроверкаЗадания.Attribute.Задание" id="cd9e91e7-1be4-45c4-81fb-c96c3e2c3366"/>
+			<Metadata name="Document.fast8ПроверкаЗадания.Attribute.Выполнено" id="db2328f3-3954-4199-9e8e-5ab2fb7ec731"/>
+			<Metadata name="Document.fast8ПроверкаЗадания.Attribute.Процесс" id="e99f2d4b-5ecc-4691-abe8-9211ae98e411"/>
+		</Metadata>
+		<Metadata name="Document.fast8ПроверкаЗадания.ObjectModule" id="88dcaa85-ae2c-4677-b065-5bf29583ed7e.0" configVersion="a9faad6285e01a4086bd736a86a281ed00000000"/>
+		<Metadata name="Enum.fast8ВидыЕдиницПериода" id="2338ced9-8df5-4ebb-971c-234dce1173aa" configVersion="90a91e65f06c4041858c64657c8ce1ab00000000">
+			<Metadata name="Enum.fast8ВидыЕдиницПериода.EnumValue.Вторник" id="21da69a1-1a09-487c-bacd-8fa1cd24e6f5"/>
+			<Metadata name="Enum.fast8ВидыЕдиницПериода.EnumValue.День" id="298420be-37e9-4ffe-9fcf-95206c574610"/>
+			<Metadata name="Enum.fast8ВидыЕдиницПериода.EnumValue.Среда" id="3555b933-7dc5-43ab-a527-c7273bc59a15"/>
+			<Metadata name="Enum.fast8ВидыЕдиницПериода.EnumValue.Понедельник" id="3d32d594-d96d-4d4a-a6f0-393d8d462dda"/>
+			<Metadata name="Enum.fast8ВидыЕдиницПериода.EnumValue.Суббота" id="4a08b7bf-60a6-4aca-9f1e-5f491be5ec25"/>
+			<Metadata name="Enum.fast8ВидыЕдиницПериода.EnumValue.Пятница" id="969cf410-e317-4d4f-8a5a-7922d5bb9824"/>
+			<Metadata name="Enum.fast8ВидыЕдиницПериода.EnumValue.Воскресенье" id="9f03c389-3ef1-4f6e-932c-643b44bc8a67"/>
+			<Metadata name="Enum.fast8ВидыЕдиницПериода.EnumValue.Четверг" id="d2564318-7288-4ceb-984b-b99027c69f47"/>
+		</Metadata>
+		<Metadata name="Enum.fast8ВидыПериодов" id="956cc4a8-79c7-404f-97a0-3713a80f45b1" configVersion="9783f108f5087d45bc6de0efceb5eb6f00000000">
+			<Metadata name="Enum.fast8ВидыПериодов.EnumValue.Недельное" id="30b501e7-1526-4bc8-945b-43a70111a1a5"/>
+			<Metadata name="Enum.fast8ВидыПериодов.EnumValue.Месячное" id="5d603a4d-7fe2-4a9f-912f-e05305a05905"/>
+			<Metadata name="Enum.fast8ВидыПериодов.EnumValue.Датой" id="a04fb333-7d61-4563-8ff8-a1c130bf599a"/>
+		</Metadata>
+		<Metadata name="Enum.fast8СтатусыЗаданий" id="1da22dbe-40c3-496e-b267-a9e2a4184120" configVersion="7b1488725b20d24ba1f1e2e7db3130d400000000">
+			<Metadata name="Enum.fast8СтатусыЗаданий.EnumValue.ВозвращеноНаДоработку" id="02580674-0cd9-43fa-a3e6-28c984585f9d"/>
+			<Metadata name="Enum.fast8СтатусыЗаданий.EnumValue.НазначенИсполнитель" id="0c215901-89eb-4943-be09-13d351165df5"/>
+			<Metadata name="Enum.fast8СтатусыЗаданий.EnumValue.Выполнено" id="12b8ac30-7962-4947-96a6-9f1af88d1ac3"/>
+			<Metadata name="Enum.fast8СтатусыЗаданий.EnumValue.ПереданоВРаботу" id="142ec327-6aef-481d-92cc-8280dfa4fd68"/>
+			<Metadata name="Enum.fast8СтатусыЗаданий.EnumValue.НаПроверке" id="575db7f8-eff4-489c-b059-0548334becc7"/>
+			<Metadata name="Enum.fast8СтатусыЗаданий.EnumValue.Выполняется" id="7836ed40-9e74-453f-b236-77f69b55a993"/>
+			<Metadata name="Enum.fast8СтатусыЗаданий.EnumValue.Новое" id="afb2f80f-6ab3-4856-a7dc-f5825bfade1d"/>
+			<Metadata name="Enum.fast8СтатусыЗаданий.EnumValue.Отменено" id="e7630426-28e3-46dc-b4ee-baa47d797cf7"/>
+		</Metadata>
+		<Metadata name="EventSubscription.fast8УстановитьПрефиксДокумента" id="83875b33-de70-43f4-978e-c06346915476" configVersion="49a3cfa24b46f24287e2c8018a31ff2000000000"/>
+		<Metadata name="ExchangePlan.fast8Полный" id="f003ce7d-2b38-4c07-a2b9-baefca177fd7" configVersion="a855c63b3d6b1545b03236d0bfd41ed300000000"/>
+		<Metadata name="ExchangePlan.fast8Полный.Content" id="f003ce7d-2b38-4c07-a2b9-baefca177fd7.1" configVersion="3f1ee26015b0f549b5d4b2a8bee250b800000000"/>
+		<Metadata name="ExchangePlan.fast8Полный.Form.ФормаСписка" id="1336bf01-9aff-40eb-8df0-09e5c30b21f2" configVersion="003b4c27074cd34aa30d9620e9dd73ee00000000"/>
+		<Metadata name="ExchangePlan.fast8Полный.Form.ФормаСписка.Form" id="1336bf01-9aff-40eb-8df0-09e5c30b21f2.0" configVersion="7f3ffe82e599334db3d33aa78504995c00000000"/>
+		<Metadata name="InformationRegister.fast8ЗадачиМоиНаПроверке" id="5a610450-ed99-442f-b03d-59866905b496" configVersion="1fe54721fbc93f4791b30e470969e49600000000">
+			<Metadata name="InformationRegister.fast8ЗадачиМоиНаПроверке.Resource.Статус" id="29bf4c23-aff7-4707-9585-0320b92eaeb2"/>
+			<Metadata name="InformationRegister.fast8ЗадачиМоиНаПроверке.Dimension.Задание" id="4dd9efea-9992-4d9b-823d-c786cd406c22"/>
+			<Metadata name="InformationRegister.fast8ЗадачиМоиНаПроверке.Attribute.Дата" id="67cc4dce-761b-470a-bf0e-9854b94365a6"/>
+			<Metadata name="InformationRegister.fast8ЗадачиМоиНаПроверке.Dimension.Процесс" id="6b4b327e-cdbc-4af4-9820-5f513a4dee6c"/>
+			<Metadata name="InformationRegister.fast8ЗадачиМоиНаПроверке.Dimension.Пользователь" id="93261c5b-631c-4017-98a3-8cd29330476e"/>
+			<Metadata name="InformationRegister.fast8ЗадачиМоиНаПроверке.Resource.Исполнитель" id="e25243ec-c714-4ca1-821a-295f880b33c4"/>
+		</Metadata>
+		<Metadata name="InformationRegister.fast8ЗадачиНаИсполнении" id="fdb9e3f1-b79d-443b-8b9c-0b37ddc8965f" configVersion="a0a8fa30cc383b419061c81b7b68ca7900000000">
+			<Metadata name="InformationRegister.fast8ЗадачиНаИсполнении.Resource.Статус" id="4e3791ff-7cef-4ed2-b3ea-c2215c7f2ec8"/>
+			<Metadata name="InformationRegister.fast8ЗадачиНаИсполнении.Resource.Исполнитель" id="78688f8f-f898-4909-bbd3-06e4dc336e50"/>
+			<Metadata name="InformationRegister.fast8ЗадачиНаИсполнении.Attribute.Дата" id="79eaf962-1744-40d6-ac6f-d6c9c0331ede"/>
+			<Metadata name="InformationRegister.fast8ЗадачиНаИсполнении.Dimension.Процесс" id="90a49838-dd22-459b-bfa9-1403c784949a"/>
+			<Metadata name="InformationRegister.fast8ЗадачиНаИсполнении.Dimension.Пользователь" id="eadec692-acac-4fd8-9801-caea757b191c"/>
+			<Metadata name="InformationRegister.fast8ЗадачиНаИсполнении.Dimension.Задание" id="ebb1f50a-cd15-4646-aa9c-dd003ea33856"/>
+		</Metadata>
+		<Metadata name="InformationRegister.fast8ЗадачиНаКонтроле" id="4fd473bc-4e6b-47af-87ab-e695f1e9e708" configVersion="25e81d29a5b0744380deaf4e1f6c72c700000000">
+			<Metadata name="InformationRegister.fast8ЗадачиНаКонтроле.Dimension.Пользователь" id="46ba93df-6a1c-4a79-9959-e0d2df7fdb4c"/>
+			<Metadata name="InformationRegister.fast8ЗадачиНаКонтроле.Resource.Исполнитель" id="a4003314-84d0-4b2a-aeab-4b27edf5ff56"/>
+			<Metadata name="InformationRegister.fast8ЗадачиНаКонтроле.Attribute.Дата" id="c2c6a8f6-7571-4c72-8e5d-58658987a3c5"/>
+			<Metadata name="InformationRegister.fast8ЗадачиНаКонтроле.Dimension.Задание" id="d618bb66-a96b-4ece-87bc-db1c9abc480d"/>
+			<Metadata name="InformationRegister.fast8ЗадачиНаКонтроле.Dimension.Процесс" id="e088bdaf-563d-4c8a-a998-dcd786a6c7a4"/>
+			<Metadata name="InformationRegister.fast8ЗадачиНаКонтроле.Resource.Статус" id="feaf3b33-0604-4f38-b0b6-a86561368ed4"/>
+		</Metadata>
+		<Metadata name="InformationRegister.fast8ЗадачиНаНазначении" id="e087357e-d988-4bfb-b230-864566f28b66" configVersion="a9ec2b0ea4815547894e7e2ecc3018af00000000">
+			<Metadata name="InformationRegister.fast8ЗадачиНаНазначении.Resource.Статус" id="62a67b1f-befb-4a5f-98bb-b21ff180cc2a"/>
+			<Metadata name="InformationRegister.fast8ЗадачиНаНазначении.Resource.Исполнитель" id="ba5f840b-daf3-4b66-a07d-83885d2b4394"/>
+			<Metadata name="InformationRegister.fast8ЗадачиНаНазначении.Dimension.Задание" id="bfb51476-8de5-4201-b9ad-b185a7ea59cf"/>
+			<Metadata name="InformationRegister.fast8ЗадачиНаНазначении.Attribute.Дата" id="c177b9dd-6f1c-4bfa-83f4-8606288d1fe0"/>
+			<Metadata name="InformationRegister.fast8ЗадачиНаНазначении.Dimension.Процесс" id="db685eaa-e62c-468b-b9a1-87f54e6080ee"/>
+			<Metadata name="InformationRegister.fast8ЗадачиНаНазначении.Dimension.Пользователь" id="dee993d4-f344-45b9-9727-c63a3c6b42a5"/>
+		</Metadata>
+		<Metadata name="InformationRegister.fast8ЗадачиНаПроверке" id="56b86409-0caf-41f8-8588-b6123ebb738b" configVersion="22654a84db96784d9618dbff486c5a7a00000000">
+			<Metadata name="InformationRegister.fast8ЗадачиНаПроверке.Attribute.Дата" id="0c14fe6e-4bd4-4730-acc7-dc1ac9775051"/>
+			<Metadata name="InformationRegister.fast8ЗадачиНаПроверке.Dimension.Процесс" id="69ed8cba-aa26-4656-afc3-50a2d5b3f923"/>
+			<Metadata name="InformationRegister.fast8ЗадачиНаПроверке.Dimension.Пользователь" id="8c90a4d4-c30b-46df-9d9c-b6760769ef57"/>
+			<Metadata name="InformationRegister.fast8ЗадачиНаПроверке.Dimension.Задание" id="8f819c36-4922-472b-83f6-e17b3defe8e4"/>
+			<Metadata name="InformationRegister.fast8ЗадачиНаПроверке.Resource.Статус" id="ad5325f2-98ae-4de2-ab61-d249b98d2ff3"/>
+			<Metadata name="InformationRegister.fast8ЗадачиНаПроверке.Resource.Исполнитель" id="f576ec9a-bcb0-446d-b739-f8c559b9877a"/>
+		</Metadata>
+		<Metadata name="InformationRegister.fast8ЗадачиНаПросмотре" id="7973022a-c28a-4c91-a8c2-b06c8572c5e1" configVersion="e338abceb08ad34b8d155c38b55eba9300000000">
+			<Metadata name="InformationRegister.fast8ЗадачиНаПросмотре.Attribute.Дата" id="14342467-ec4b-4292-a0ea-d04763579663"/>
+			<Metadata name="InformationRegister.fast8ЗадачиНаПросмотре.Resource.Исполнитель" id="1e7fc481-b209-4f10-8cba-c9381198b2a6"/>
+			<Metadata name="InformationRegister.fast8ЗадачиНаПросмотре.Dimension.Пользователь" id="4e7facac-6f0a-421a-9238-1d903676fd14"/>
+			<Metadata name="InformationRegister.fast8ЗадачиНаПросмотре.Dimension.Процесс" id="6f660b6d-fda9-4ca0-8474-8a2a22b41fae"/>
+			<Metadata name="InformationRegister.fast8ЗадачиНаПросмотре.Resource.Статус" id="85808995-f546-4de8-8aa5-46e77bb98699"/>
+			<Metadata name="InformationRegister.fast8ЗадачиНаПросмотре.Dimension.Задание" id="8b0e7d0a-c876-4017-9c80-dbcf77b8a304"/>
+		</Metadata>
+		<Metadata name="InformationRegister.fast8ИсторияВыполненияЗаданий" id="62659b12-f76f-478b-91c2-4d99e30ad8f5" configVersion="f7e6ecdc7f414a44b1ec3f4dc06aa89600000000">
+			<Metadata name="InformationRegister.fast8ИсторияВыполненияЗаданий.Resource.Ответственный" id="1e6a6cf2-8bc3-49d0-a8a5-8ead07a41ab1"/>
+			<Metadata name="InformationRegister.fast8ИсторияВыполненияЗаданий.Dimension.Задание" id="5049a778-3c46-4427-8172-af8b69f438fa"/>
+			<Metadata name="InformationRegister.fast8ИсторияВыполненияЗаданий.Resource.Проверяющий" id="979c253d-9e32-452d-9528-f0070fc14217"/>
+			<Metadata name="InformationRegister.fast8ИсторияВыполненияЗаданий.Resource.Исполнитель" id="aedecd1d-c57e-49bb-9c2a-5ce5d3a01b2f"/>
+			<Metadata name="InformationRegister.fast8ИсторияВыполненияЗаданий.Resource.Статус" id="d456a32b-bca9-4856-b7b0-d3d14dfa79f0"/>
+			<Metadata name="InformationRegister.fast8ИсторияВыполненияЗаданий.Dimension.Процесс" id="da0b799f-7342-4f33-8fac-7b83b4dccc02"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="886c42bd-e51a-43fd-9690-9b8b4b9cfb20" configVersion="4479434e9b19054684cca49e766a466600000000"/>
+		<Metadata name="Role.fast8Администрирование" id="faf76ab5-1880-47e2-b977-6d72be8c9918" configVersion="24e5294d3e0d7746b9a64e509731ad7f00000000"/>
+		<Metadata name="Role.fast8Администрирование.Rights" id="faf76ab5-1880-47e2-b977-6d72be8c9918.0" configVersion="7d72e742941d0347a0d53e68a007858d00000000"/>
+		<Metadata name="Role.fast8БазовыеОбъекты" id="2dfab173-7f52-425a-984a-28baa6e99112" configVersion="772b2c08313b114aa22588b00ab7910100000000"/>
+		<Metadata name="Role.fast8БазовыеОбъекты.Rights" id="2dfab173-7f52-425a-984a-28baa6e99112.0" configVersion="222ecd985c595841a931e3ad80d8c1fd00000000"/>
+		<Metadata name="Role.fast8Исполнитель" id="e04455d2-872a-49ae-8e9b-c70497be56ab" configVersion="c176cc8e19a5b3488a3ce06da6d50fdb00000000"/>
+		<Metadata name="Role.fast8Исполнитель.Rights" id="e04455d2-872a-49ae-8e9b-c70497be56ab.0" configVersion="23d60f026c5dc34f863250d6b39e776300000000"/>
+		<Metadata name="ScheduledJob.fast8СозданиеЗаданийПоРасписанию" id="7314fb28-34bc-4f83-ae60-64a170ed73db" configVersion="d7503c103c860244964be897944782d300000000"/>
+		<Metadata name="ScheduledJob.fast8СозданиеЗаданийПоРасписанию.Schedule" id="7314fb28-34bc-4f83-ae60-64a170ed73db.0" configVersion="8ca23f686f8ecc48b4a1e48a5ff2f9fb00000000"/>
+		<Metadata name="SessionParameter.fast8ДельтаВремениССервером" id="eac94298-9f95-4e03-8a1f-6d1a2acd5a82" configVersion="031c92a4d3316042876135cd7bb5395000000000"/>
+		<Metadata name="SessionParameter.fast8Префикс" id="b39689e0-2e9b-48bc-a367-8a58e544aafc" configVersion="a0809b934f5a10449b496c6ea0ac5ec900000000"/>
+		<Metadata name="SessionParameter.fast8ТекущийПользователь" id="25879825-e2bc-4e27-b3d4-12064be473ef" configVersion="92744c909956054db45c13cc42147d7a00000000"/>
+		<Metadata name="WebService.fast8Обмен" id="ee27e002-a02f-47ac-9238-99ae7d752efd" configVersion="9bb0a367b81c58418fe0cb7f937eacb100000000">
+			<Metadata name="WebService.fast8Обмен.Operation.ЗагрузитьОбъектБазы.Parameter.ТипДанных" id="009a1e8d-9484-43fc-af1d-e57dd6909bf0"/>
+			<Metadata name="WebService.fast8Обмен.Operation.ПроверитьНаличиеИзменений" id="02350dd0-1ef5-4b20-8b04-0071d1227c31"/>
+			<Metadata name="WebService.fast8Обмен.Operation.ПолучитьОбъектБазы.Parameter.ИмяТаблицы" id="06ff5d67-cce8-4aff-8404-bbe7f801db34"/>
+			<Metadata name="WebService.fast8Обмен.Operation.ЗагрузитьОбъектБазы.Parameter.ДанныеОбъекта" id="0b1a98ff-be47-44a3-8bbb-e210a0a69938"/>
+			<Metadata name="WebService.fast8Обмен.Operation.ПолучитьВерсиюПриложения" id="0cb83d24-387c-411b-895c-ee893e127c21"/>
+			<Metadata name="WebService.fast8Обмен.Operation.ПолучитьВремяСервера" id="11b6f0bb-fe1e-49b9-ac12-8ae2734da3db"/>
+			<Metadata name="WebService.fast8Обмен.Operation.ПодтвердитьПолучениеОбъекта" id="12894706-3d47-4e05-a248-8df7bf43b3e3"/>
+			<Metadata name="WebService.fast8Обмен.Operation.ПроверитьКоличествоИзменений" id="176d13b1-3283-424f-b444-488e7b312875"/>
+			<Metadata name="WebService.fast8Обмен.Operation.ЗарегистрироватьВсеИзменения.Parameter.ИмяУстройства" id="1fcf5001-176e-486f-831d-3a5dc010f2fe"/>
+			<Metadata name="WebService.fast8Обмен.Operation.ПолучитьПрефикс.Parameter.ИмяУстройства" id="30dd8a8b-d40a-46be-bc43-c08d2130ee24"/>
+			<Metadata name="WebService.fast8Обмен.Operation.ЗапуститьРасчетСписковПоСтатусу.Parameter.ИмяУстройства" id="61c7ae3f-2a71-4a28-a29e-0398f4d38360"/>
+			<Metadata name="WebService.fast8Обмен.Operation.ЗапуститьРасчетСписковПоСтатусу.Parameter.ДанныеОбъекта" id="693ed81c-e66c-4a68-a637-68cdeb0419cc"/>
+			<Metadata name="WebService.fast8Обмен.Operation.ПроверитьКоличествоИзменений.Parameter.ИмяУстройства" id="6de79aef-9d46-4176-ab00-2460000f468b"/>
+			<Metadata name="WebService.fast8Обмен.Operation.ЗагрузитьОбъектБазы.Parameter.ИмяУстройства" id="88ace612-4ff7-47bb-8aab-e327e95cd661"/>
+			<Metadata name="WebService.fast8Обмен.Operation.ПолучитьОбъектБазы.Parameter.ИмяУстройства" id="8982397d-b28a-4a59-b83b-129b5c7e9a0b"/>
+			<Metadata name="WebService.fast8Обмен.Operation.ПолучитьГлавныйУзелОбмена" id="8a1fae48-09bb-4b7d-af38-a417fc7929b5"/>
+			<Metadata name="WebService.fast8Обмен.Operation.ЗапуститьРасчетСписковПоСтатусу" id="9e17147e-7caf-44f8-81bc-63e46db57c65"/>
+			<Metadata name="WebService.fast8Обмен.Operation.ПроверитьНаличиеИзменений.Parameter.ИмяУстройства" id="a920b83f-594c-4a60-863e-5a7edf1765fb"/>
+			<Metadata name="WebService.fast8Обмен.Operation.ПроверитьСоединение" id="b5b67abd-2b58-4d5f-8680-e422202b5664"/>
+			<Metadata name="WebService.fast8Обмен.Operation.ПодтвердитьПолучениеОбъекта.Parameter.ТипДанных" id="c02d0244-5067-425a-be75-a89d7ac27fb9"/>
+			<Metadata name="WebService.fast8Обмен.Operation.ПолучитьОбъектБазы" id="c18a6377-3f39-4faf-b562-72d81756d5be"/>
+			<Metadata name="WebService.fast8Обмен.Operation.ПолучитьПрефикс" id="c45a6806-14d3-4c9d-b094-2f60be9af82e"/>
+			<Metadata name="WebService.fast8Обмен.Operation.ЗарегистрироватьВсеИзменения" id="c768fe55-2e9f-4949-8b6c-bf0b5b736223"/>
+			<Metadata name="WebService.fast8Обмен.Operation.ПодтвердитьПолучениеОбъекта.Parameter.ДанныеСсылки" id="daf96385-4223-4c1c-9832-32796367197a"/>
+			<Metadata name="WebService.fast8Обмен.Operation.ПодтвердитьПолучениеОбъекта.Parameter.ИмяУстройства" id="db70271a-d8ac-4507-984a-33917101e069"/>
+			<Metadata name="WebService.fast8Обмен.Operation.ЗагрузитьОбъектБазы" id="e9324820-a554-4cc4-9e95-a051fe62c291"/>
+		</Metadata>
+		<Metadata name="WebService.fast8Обмен.Module" id="ee27e002-a02f-47ac-9238-99ae7d752efd.0" configVersion="b33da865cf36a44888dd7c8c1e739b8400000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

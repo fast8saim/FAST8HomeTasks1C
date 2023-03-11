@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="ПодключениеКСерверу" id="4">
+			<DataPath>ПодключениеКСерверу</DataPath>
+			<ContextMenu name="ПодключениеКСерверуКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ПодключениеКСерверуРасширеннаяПодсказка" id="6"/>
+			<Events>
+				<Event name="OnChange">ПодключениеКСерверуПриИзменении</Event>
+			</Events>
+		</InputField>
+		<InputField name="ПользовательУстройства" id="7">
+			<DataPath>ПользовательУстройства</DataPath>
+			<ContextMenu name="ПользовательУстройстваКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ПользовательУстройстваРасширеннаяПодсказка" id="9"/>
+			<Events>
+				<Event name="OnChange">ПользовательУстройстваПриИзменении</Event>
+			</Events>
+		</InputField>
+		<InputField name="ПарольПодключения" id="14">
+			<DataPath>ПарольПодключения</DataPath>
+			<PasswordMode>true</PasswordMode>
+			<ContextMenu name="ПарольПодключенияКонтекстноеМеню" id="15"/>
+			<ExtendedTooltip name="ПарольПодключенияРасширеннаяПодсказка" id="16"/>
+			<Events>
+				<Event name="OnChange">ПарольПодключенияПриИзменении</Event>
+			</Events>
+		</InputField>
+		<InputField name="ВремяАвтовыключения" id="27">
+			<DataPath>ВремяАвтовыключения</DataPath>
+			<ContextMenu name="ВремяАвтовыключенияКонтекстноеМеню" id="28"/>
+			<ExtendedTooltip name="ВремяАвтовыключенияРасширеннаяПодсказка" id="29"/>
+			<Events>
+				<Event name="OnChange">ВремяАвтовыключенияПриИзменении</Event>
+			</Events>
+		</InputField>
+		<InputField name="КодЭтогоУзла" id="24">
+			<DataPath>КодЭтогоУзла</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ContextMenu name="КодЭтогоУзлаКонтекстноеМеню" id="25"/>
+			<ExtendedTooltip name="КодЭтогоУзлаРасширеннаяПодсказка" id="26"/>
+		</InputField>
+		<Button name="ПроверитьСоединение" id="10">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ПроверитьСоединение</CommandName>
+			<ExtendedTooltip name="ПроверитьСоединениеРасширеннаяПодсказка" id="11"/>
+		</Button>
+		<InputField name="ВремяСервера" id="21">
+			<DataPath>ВремяСервера</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ContextMenu name="ВремяСервераКонтекстноеМеню" id="22"/>
+			<ExtendedTooltip name="ВремяСервераРасширеннаяПодсказка" id="23"/>
+		</InputField>
+		<Button name="ЗагрузитьНачальныеДанные" id="12">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ЗагрузитьНачальныеДанные</CommandName>
+			<ExtendedTooltip name="ЗагрузитьНачальныеДанныеРасширеннаяПодсказка" id="13"/>
+		</Button>
+		<InputField name="ЗаголовокСообщенияТелеграм" id="30">
+			<DataPath>ЗаголовокСообщенияТелеграм</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ЗаголовокСообщенияТелеграмКонтекстноеМеню" id="31"/>
+			<ExtendedTooltip name="ЗаголовокСообщенияТелеграмРасширеннаяПодсказка" id="32"/>
+			<Events>
+				<Event name="OnChange">ЗаголовокСообщенияТелеграмПриИзменении</Event>
+			</Events>
+		</InputField>
+		<InputField name="ИмяГруппыТелеграм" id="33">
+			<DataPath>ИмяГруппыТелеграм</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ИмяГруппыТелеграмКонтекстноеМеню" id="34"/>
+			<ExtendedTooltip name="ИмяГруппыТелеграмРасширеннаяПодсказка" id="35"/>
+			<Events>
+				<Event name="OnChange">ИмяГруппыТелеграмПриИзменении</Event>
+			</Events>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="ПользовательУстройства" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пользователь устройства</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>50</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<FillCheck>ShowError</FillCheck>
+		</Attribute>
+		<Attribute name="ПодключениеКСерверу" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подключение к серверу</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>150</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<FillCheck>ShowError</FillCheck>
+		</Attribute>
+		<Attribute name="ПарольПодключения" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пароль подключения</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>50</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="КодЭтогоУзла" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Код этого узла</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>2</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ВремяСервера" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Время сервера</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>DateTime</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ВремяАвтовыключения" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Время автовыключения</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Time</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ЗаголовокСообщенияТелеграм" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заголовок сообщения телеграм</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ИмяГруппыТелеграм" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Имя группы телеграм</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ПроверитьСоединение" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить соединение</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить соединение</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПроверитьСоединение</Action>
+		</Command>
+		<Command name="ЗагрузитьНачальныеДанные" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить начальные данные</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить начальные данные</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗагрузитьНачальныеДанные</Action>
+		</Command>
+	</Commands>
+</Form>
