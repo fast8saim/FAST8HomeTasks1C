@@ -78,12 +78,12 @@ root.title("FAST8 установка")
 form = ttk.Frame(root, padding=5)
 form.grid()
 
-set_download_7zip = True
-set_setup_7zip = True
-set_unpack_platform = True
-set_setup_platform = True
-set_create_infobase = True
-set_create_service = True
+set_download_7zip = tkinter.BooleanVar(value=True)
+set_setup_7zip = tkinter.BooleanVar(value=True)
+set_unpack_platform = tkinter.BooleanVar(value=True)
+set_setup_platform = tkinter.BooleanVar(value=True)
+set_create_infobase = tkinter.BooleanVar(value=True)
+set_create_service = tkinter.BooleanVar(value=True)
 create_checkbox(form, 'Скачать 7zip', set_download_7zip, 1, 1)
 create_checkbox(form, 'Установить 7zip', set_setup_7zip, 1, 2)
 create_checkbox(form, 'Распаковать дистрибутив платформы', set_unpack_platform, 1, 3)
