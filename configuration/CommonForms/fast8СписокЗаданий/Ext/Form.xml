@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 	</AutoCommandBar>
@@ -51,8 +51,8 @@
 							<TopLevelParent xsi:nil="true"/>
 							<ShowRoot>true</ShowRoot>
 							<AllowRootChoice>false</AllowRootChoice>
-							<UpdateOnDataChange>Auto</UpdateOnDataChange>
 							<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
 							<ContextMenu name="ЗадачиНаИсполненииКонтекстноеМеню" id="86"/>
 							<AutoCommandBar name="ЗадачиНаИсполненииКоманднаяПанель" id="87">
 								<Autofill>false</Autofill>
@@ -144,8 +144,8 @@
 							<TopLevelParent xsi:nil="true"/>
 							<ShowRoot>true</ShowRoot>
 							<AllowRootChoice>false</AllowRootChoice>
-							<UpdateOnDataChange>Auto</UpdateOnDataChange>
 							<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
 							<ContextMenu name="ЗадачиНаНазначенииКонтекстноеМеню" id="158"/>
 							<AutoCommandBar name="ЗадачиНаНазначенииКоманднаяПанель" id="159">
 								<Autofill>false</Autofill>
@@ -237,8 +237,8 @@
 							<TopLevelParent xsi:nil="true"/>
 							<ShowRoot>true</ShowRoot>
 							<AllowRootChoice>false</AllowRootChoice>
-							<UpdateOnDataChange>Auto</UpdateOnDataChange>
 							<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
 							<ContextMenu name="ЗадачиНаКонтролеКонтекстноеМеню" id="122"/>
 							<AutoCommandBar name="ЗадачиНаКонтролеКоманднаяПанель" id="123">
 								<Autofill>false</Autofill>
@@ -335,8 +335,8 @@
 							<TopLevelParent xsi:nil="true"/>
 							<ShowRoot>true</ShowRoot>
 							<AllowRootChoice>false</AllowRootChoice>
-							<UpdateOnDataChange>Auto</UpdateOnDataChange>
 							<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
 							<ContextMenu name="ЗадачиНаПроверкеКонтекстноеМеню" id="194"/>
 							<AutoCommandBar name="ЗадачиНаПроверкеКоманднаяПанель" id="195">
 								<Autofill>false</Autofill>
@@ -433,8 +433,8 @@
 							<TopLevelParent xsi:nil="true"/>
 							<ShowRoot>true</ShowRoot>
 							<AllowRootChoice>false</AllowRootChoice>
-							<UpdateOnDataChange>Auto</UpdateOnDataChange>
 							<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
 							<ContextMenu name="ЗадачиНаПросмотреКонтекстноеМеню" id="230"/>
 							<AutoCommandBar name="ЗадачиНаПросмотреКоманднаяПанель" id="231">
 								<Autofill>false</Autofill>
@@ -531,8 +531,8 @@
 							<TopLevelParent xsi:nil="true"/>
 							<ShowRoot>true</ShowRoot>
 							<AllowRootChoice>false</AllowRootChoice>
-							<UpdateOnDataChange>Auto</UpdateOnDataChange>
 							<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
 							<ContextMenu name="ЗадачиМоиНаПроверкеКонтекстноеМеню" id="314"/>
 							<AutoCommandBar name="ЗадачиМоиНаПроверкеКоманднаяПанель" id="315">
 								<Autofill>false</Autofill>

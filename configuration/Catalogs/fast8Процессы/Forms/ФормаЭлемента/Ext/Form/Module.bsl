@@ -1,25 +1,26 @@
-﻿//MIT License
+﻿// MIT License
 //
-//Copyright (c) 2023 FAST8.RU
+// Copyright (c) 2023 FAST8.RU
 //
-//Permission is hereby granted, free of charge, to any person obtaining a copy
-//of this software and associated documentation files (the "Software"), to deal
-//in the Software without restriction, including without limitation the rights
-//to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-//copies of the Software, and to permit persons to whom the Software is
-//furnished to do so, subject to the following conditions:
+// Permission is hereby granted, free of charge, to any person obtaining a copy
+// of this software and associated documentation files (the "Software"), to deal
+// in the Software without restriction, including without limitation the rights
+// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+// copies of the Software, and to permit persons to whom the Software is
+// furnished to do so, subject to the following conditions:
 //
-//The above copyright notice and this permission notice shall be included in all
-//copies or substantial portions of the Software.
+// The above copyright notice and this permission notice shall be included in all
+// copies or substantial portions of the Software.
 //
-//THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-//IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-//FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-//AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-//LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-//OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-//SOFTWARE.
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+// SOFTWARE.
 
+#Область ОбработчикиСобытийФормы
 
 &НаСервере
 Процедура ПриСозданииНаСервере(Отказ, СтандартнаяОбработка)
@@ -61,25 +62,6 @@
 		
 КонецПроцедуры // ПриСозданииНаСервере()
 
-&НаКлиенте
-Процедура КартинкаНажатие(Элемент, СтандартнаяОбработка)
-	
-	СтандартнаяОбработка = Ложь;
-	НачатьПомещениеФайла(Новый ОписаниеОповещения("ЗагрузитьКартинкуЗавершение", ЭтотОбъект), АдресВременнойКартинки,, Истина, УникальныйИдентификатор);
-	
-КонецПроцедуры // КартинкаНажатие()
-
-&НаКлиенте
-Процедура ЗагрузитьКартинкуЗавершение(Результат, Адрес, ВыбранноеИмяФайла, ДополнительныеПараметры) Экспорт
-	
-	Если Результат = Истина Тогда 
-		АдресВременнойКартинки = Адрес;
-		Картинка = АдресВременнойКартинки;
-		Модифицированность = Истина;
-	КонецЕсли;
-	
-КонецПроцедуры // ЗагрузитьКартинкуЗавершение()
-
 &НаСервере
 Процедура ПередЗаписьюНаСервере(Отказ, ТекущийОбъект, ПараметрыЗаписи)
 	
@@ -90,6 +72,22 @@
 	
 КонецПроцедуры // ПередЗаписьюНаСервере()
 
+#КонецОбласти // ОбработчикиСобытийФормы
+
+#Область ОбработчикиСобытийЭлементовШапкиФормы
+
+&НаКлиенте
+Процедура КартинкаНажатие(Элемент, СтандартнаяОбработка)
+	
+	СтандартнаяОбработка = Ложь;
+	НачатьПомещениеФайла(Новый ОписаниеОповещения("ЗагрузитьКартинкуЗавершение", ЭтотОбъект), АдресВременнойКартинки,, Истина, УникальныйИдентификатор);
+	
+КонецПроцедуры // КартинкаНажатие()
+
+#КонецОбласти // ОбработчикиСобытийЭлементовШапкиФормы
+
+#Область ОбработчикиСобытийЭлементовТаблицыФормыРасписание
+
 &НаКлиенте
 Процедура РасписаниеПриАктивизацииСтроки(Элемент)
 	
@@ -99,6 +97,23 @@
 	КонецЕсли;
 	
 КонецПроцедуры // РасписаниеПриАктивизацииСтроки()
+
+&НаКлиенте
+Процедура РасписаниеВидПриИзменении(Элемент)
+	
+	ТекущиеДанные = Элементы.Расписание.ТекущиеДанные;
+	Если ТекущиеДанные <> Неопределено Тогда
+		ЗаполнитьСписокВыбораЕдиницы(ТекущиеДанные.Вид);
+		Если ТекущиеДанные.Вид = ПредопределенноеЗначение("Перечисление.fast8ВидыПериодов.Недельное") Тогда
+			ТекущиеДанные.Порядок = 0;
+		КонецЕсли;
+	КонецЕсли;
+	
+КонецПроцедуры // РасписаниеВидПриИзменении()
+
+#КонецОбласти // ОбработчикиСобытийЭлементовТаблицыФормыРасписание
+
+#Область СлужебныеПроцедурыИФункции
 
 &НаКлиенте
 Процедура ЗаполнитьСписокВыбораЕдиницы(Вид)
@@ -136,14 +151,14 @@
 КонецПроцедуры // ЗаполнитьСписокВыбораЕдиницы()
 
 &НаКлиенте
-Процедура РасписаниеВидПриИзменении(Элемент)
+Процедура ЗагрузитьКартинкуЗавершение(Результат, Адрес, ВыбранноеИмяФайла, ДополнительныеПараметры) Экспорт
 	
-	ТекущиеДанные = Элементы.Расписание.ТекущиеДанные;
-	Если ТекущиеДанные <> Неопределено Тогда
-		ЗаполнитьСписокВыбораЕдиницы(ТекущиеДанные.Вид);
-		Если ТекущиеДанные.Вид = ПредопределенноеЗначение("Перечисление.fast8ВидыПериодов.Недельное") Тогда
-			ТекущиеДанные.Порядок = 0;
-		КонецЕсли;
+	Если Результат = Истина Тогда 
+		АдресВременнойКартинки = Адрес;
+		Картинка = АдресВременнойКартинки;
+		Модифицированность = Истина;
 	КонецЕсли;
 	
-КонецПроцедуры // РасписаниеВидПриИзменении()
+КонецПроцедуры // ЗагрузитьКартинкуЗавершение()
+
+#КонецОбласти // СлужебныеПроцедурыИФункции
